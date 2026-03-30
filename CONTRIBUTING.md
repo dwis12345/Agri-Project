@@ -5,7 +5,7 @@ We’re happy to have you here. Please follow the guidelines below to ensure smo
 
 ---
 
-### 🚀 Contribution Workflow
+### Contribution Workflow
 
 ### 1. Check Issues
 - Browse available issues
@@ -52,4 +52,6 @@ git push origin feature/your-feature-name
 
 ### 💬 If You Cannot Continue
 Use this message:
+```text
 Hi, I’m unable to continue working on this issue. Please unassign me so others can contribute.
+```
