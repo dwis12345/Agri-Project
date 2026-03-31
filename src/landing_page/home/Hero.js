@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Hero() {
     return ( 
@@ -35,6 +36,14 @@ function Hero() {
                 <div className="col-4 ps-4" id="img">
                     <img src="/media/images/farm06.jpg" 
                     alt="image06" style={{ width: "18rem", height: "12rem" }}></img>
+                </div>
+            </div>
+            
+            <div className="row mt-5">
+                <div className="col-12 text-center">
+                    <Link to="/new" className="btn btn-success btn-lg px-5 py-3 fs-5 shadow rounded-pill" style={{ fontWeight: 600, transition: 'all 0.3s ease-in-out' }} onMouseOver={(e) => { e.target.style.transform = 'translateY(-3px)'; e.target.style.boxShadow = '0 6px 12px rgba(40, 167, 69, 0.3)'; }} onMouseOut={(e) => { e.target.style.transform = 'translateY(0)'; e.target.style.boxShadow = '0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)'; }}>
+                        Start Detecting Plant Disease &rarr;
+                    </Link>
                 </div>
             </div>
 
