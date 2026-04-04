@@ -489,6 +489,90 @@ body::before, body::after {
   justify-content: center;
 }
 
+/* Contributors */
+/* Contributors Section */
+#contributors {
+  padding: 50px 20px;
+  background-color: #f9f9f9; /* subtle contrast with main page */
+  text-align: center;
+}
+
+#contributors h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#contributors p {
+  margin-bottom: 30px;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Grid layout for contributors */
+.contributors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Individual contributor card */
+.contributor {
+  background-color: #fff;
+  padding: 15px 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 200px;
+}
+
+.contributor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Contributor avatar */
+.contributor img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.contributor img:hover {
+  transform: scale(1.1);
+}
+
+/* Contributor info */
+.contributor h3 {
+  margin: 5px 0;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.contributor p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* GitHub link */
+.contributor a {
+  display: inline-block;
+  margin-top: 5px;
+  color: #0077b6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.contributor a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
   .hover-underline.heading {

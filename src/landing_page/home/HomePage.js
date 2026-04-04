@@ -6,6 +6,7 @@ import Footer from '../Footer';
 import "./image.css";
 import Solution from './Solution';
 import Space from './Space';
+import Contributors from '../Contributors';
 
 
 function HomePage() {
@@ -17,6 +18,7 @@ function HomePage() {
             <Space/>
             <Solution/>
             <FAQ/>
+            <Contributors/>
             <Footer/>
         </>
      );
