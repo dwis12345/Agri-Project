@@ -1,8 +1,7 @@
 name: PR Welcome Message
 
 on:
-  pull_request:
-    types: [opened]
+  workflow_dispatch:
 
 jobs:
   welcome:
