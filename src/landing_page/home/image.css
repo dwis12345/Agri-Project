@@ -491,4 +491,51 @@ body::before, body::after {
     margin: -10px auto 25px auto;
     padding: 0 15px;
   }
+
+  .img-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #ffffff;
+ 
+  min-height: 40px; /* ensures same height for all titles */
+}
+
+.img-desc {
+  font-size: 13px;
+  color: #d1d5db;
+  max-width: 85%;
+  line-height: 1.5;
+  
+  min-height: 60px; /* THIS fixes alignment */
+}
+
+#img:hover .img-title {
+  color: #00ff88;
+  transition: 0.3s;
+}
+
+#img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.img-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.up-image, .down-image {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  row-gap: 20px;
+}
+
 }
