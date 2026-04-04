@@ -11,31 +11,70 @@ function Hero() {
                 A platform for farmers, students, and plant enthusiasts to learn, monitor crops, and make smarter decisions with weather insights.
             </p>
             <div className="row up-image">
-                <div className="col-4" id="img">
-                    <img src="/media/images/farm01.jpg" 
-                    alt="image01" style={{ width: "18rem", height: "12rem" }}></img>
+                <div className="col-4 text-center" id="img">
+                    <div className = "img-card">
+                    <img 
+                        src="/media/images/farm01.jpg" 
+                        alt="Smart Farming with Technology" 
+                        style={{ width: "18rem", height: "12rem" }} 
+                    />
+                    <h5 className="img-title mt-2">Smart Farming with Technology</h5>
+                    <p className="img-desc">
+                         Farmers using digital tools and data to monitor crops and make informed decisions for better productivity.
+                    </p>
+                    </div>
                 </div>
                 <div className="col-4 ps-3" id="img">
+                    <div className = "img-card">
                     <img src="/media/images/farm02.jpg" 
                     alt="image02" style={{ width: "18rem", height: "12rem" }}></img>
+                    <h5 className="img-title mt-2">Modern Agricultural Machinery</h5>
+                    <p className="img-desc">
+                        Advanced equipment helping farmers improve efficiency, reduce labor, and increase crop yield.
+                    </p>
+                    </div>
                 </div>
                 <div className="col-4 ps-4" id="img">
-                    <img src="/media/images/farm03.avif" 
+                    <div className = "img-card">
+                    <img src="/media/images/farm03.jpg" 
                     alt="image03" style={{ width: "18rem", height: "12rem" }}></img>
+                    <h5 className="img-title mt-2">Efficient Crop Harvesting</h5>
+                    <p className="img-desc">
+                        Large-scale harvesting techniques ensuring timely collection and reduced wastage.
+                    </p>
+                    </div>
                 </div>
             </div>
             <div className="row down-image">
                 <div className="col-4" id="img">
+                    <div className = "img-card">
                     <img src="/media/images/farm04.jpeg" 
                     alt="image04" style={{ width: "18rem", height: "12rem" }}></img>
+                    <h5 className="img-title mt-2">Traditional Farming Practices</h5>
+                    <p className="img-desc">
+                        Age-old farming methods that form the foundation of agriculture and support rural livelihoods.
+                    </p>
+                    </div>
                 </div>
                 <div className="col-4 ps-3" id="img">
+                    <div className = "img-card">
                     <img src="/media/images/farm05.webp" 
                     alt="image05" style={{ width: "18rem", height: "12rem" }}></img>
+                    <h5 className="img-title mt-2">Sustainable Agriculture</h5>
+                    <p className="img-desc">
+                        Farmers working together to share knowledge, improve techniques, and adopt better farming strategies.
+                    </p>
+                    </div>
                 </div>
                 <div className="col-4 ps-4" id="img">
+                    <div className = "img-card">
                     <img src="/media/images/farm06.jpg" 
                     alt="image06" style={{ width: "18rem", height: "12rem" }}></img>
+                    <h5 className="img-title mt-2">Sustainable Crop Growth</h5>
+                    <p className="img-desc">
+                        Nurturing plants with care to ensure healthy growth and environmentally friendly farming practices.
+                    </p>
+                    </div>
                 </div>
             </div>
             
