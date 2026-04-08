@@ -1,19 +1,10 @@
 # 🌱 Agri Project
 
-A beginner-friendly agriculture platform that helps new farmers learn, access resources, and make better farming decisions using technology. It also helps students understand agriculture basics and modern farming techniques with real-world insights.
+A beginner-friendly agriculture platform built using HTML, CSS, and JavaScript that helps new farmers learn, access resources, and make better farming decisions using technology. It also helps students understand agriculture basics and modern farming techniques with real-world insights.
 
 ## 🔗 Live Demo
 
 https://agri-project-zeta.vercel.app/
-
-## About the Project
-
-Agri Project aims to bridge the gap between traditional farming knowledge and modern agricultural technology.
-It provides an easy-to-understand platform for:
-
-- 🌾 New farmers starting their journey
-- 🎓 Students learning agriculture basics
-- 🚜 Users exploring modern farming techniques
 
 ## 🚀 Features
 
@@ -25,7 +16,7 @@ It provides an easy-to-understand platform for:
 ## 🛠️ Tech Stack
 
 - ⚛️ Frontend: React.js
-- 🎨 Styling: CSS 
+- 🎨 Styling: CSS
 - 🚀 Deployment: Vercel
 - 🔧 Version Control: Git & GitHub
 
