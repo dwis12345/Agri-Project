@@ -22,7 +22,8 @@ https://agri-project-zeta.vercel.app/
 
 ##  📸 Screenshots
 Home Page
-<img width="1366" height="645" alt="agri-image01" src="https://github.com/user-attachments/assets/f476a2b8-8cfa-417d-a2a6-43b134d19ec9" />
+<img width="1366" height="641" alt="Screenshot 2026-04-14 230443" src="https://github.com/user-attachments/assets/917c1675-94a6-4155-948e-b9c0780606a5" />
+
 
 E-commerce Page
 <img width="1360" height="639" alt="agri-image02" src="https://github.com/user-attachments/assets/89cc2a1a-4d98-473d-b0a4-a79d968156c5" />
